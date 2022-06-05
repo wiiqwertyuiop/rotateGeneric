@@ -3,6 +3,7 @@
 
 using namespace std;
 
+// Rotates an image 90 degrees
 template<typename T>
 auto rotateImage(const vector<vector<T>>& input) {
     vector<vector<T>> out;
